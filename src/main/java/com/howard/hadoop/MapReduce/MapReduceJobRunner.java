@@ -13,7 +13,7 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
  
-public class WordCount
+public class MapReduceJobRunner
 {
   public static void main(String[] args) throws IOException,
     InterruptedException, ClassNotFoundException
