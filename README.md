@@ -1,7 +1,7 @@
 #javaMapReduce_w_maven
 #simple java map reduce project using maven
 
--- settings.xml in root dir of this repo is need to specify cloudera hadoop repository for maven, need to be copied to ${HOME}/.m2/ directory
+-- settings.xml in root dir of this repo is need to specify cloudera hadoop repository for maven, need to be copied or moved to ${HOME}/.m2/ directory
 
 -- in order to run this program and build the jar, need to use maven clean install (or maven packate)
 
