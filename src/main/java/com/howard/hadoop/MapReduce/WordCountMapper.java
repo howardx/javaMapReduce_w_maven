@@ -14,6 +14,10 @@ public class WordCountMapper extends Mapper<Object, Text, Text, IntWritable>
   public void map(Object key, Text value, Context context)
     throws IOException, InterruptedException
   {
+    /*
+     * the words could be delimited with any charactor, such as
+     * space, pipe etc.
+     */
     String[] csv = value.toString().split(",");
     for (String str : csv)
     {
